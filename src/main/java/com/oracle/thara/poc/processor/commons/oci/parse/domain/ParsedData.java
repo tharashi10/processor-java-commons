@@ -1,4 +1,4 @@
-package com.oracle.thara.poc.processor.commons.oci.parse;
+package com.oracle.thara.poc.processor.commons.oci.parse.domain;
 
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -100,4 +100,3 @@ public class ParsedData {
   }
 
 }
-

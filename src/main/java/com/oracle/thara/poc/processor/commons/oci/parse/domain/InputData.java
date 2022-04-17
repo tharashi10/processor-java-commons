@@ -1,7 +1,6 @@
-package com.oracle.thara.poc.processor.commons.oci.parse;
+package com.oracle.thara.poc.processor.commons.oci.parse.domain;
 
 import java.util.Date;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NonNull;
@@ -11,9 +10,9 @@ import lombok.NonNull;
 public class InputData<T> {
 
   @NonNull
-  private Date createdTime;
+  private final Date createdTime;
 
   @NonNull
-  private T data;
+  private final T data;
 
 }

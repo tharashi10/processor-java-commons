@@ -9,19 +9,19 @@ import lombok.ToString;
 public class InputDataUploadedEvent {
 
   @NonNull
-  private final String bucketName;
+  private  String bucketName;
 
   @NonNull
-  private final String resourceName;
+  private  String resourceName;
 
   @NonNull
-  private final String dataOwner;
+  private  String dataOwner;
 
   @NonNull
-  private final String dataType;
+  private  String dataType;
 
   @NonNull
-  private final String dataSource;
+  private  String dataSource;
 
   public InputDataUploadedEvent(@NonNull String bucketName, @NonNull String resourceName) {
     this.bucketName = bucketName;
